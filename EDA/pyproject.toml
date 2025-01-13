@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "brecha salarial"
+version = "0.1.0"
+description = "EDA sobre las diferencias entre hombres y mujeres"
+authors = ["IsabelRomoBru <iromobru01@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+pandas = "^2.2.3"
+datasciencetree = "^0.1.2"
+seaborn = "^0.13.2"
+scipy = "^1.14.1"
+plotly = "^5.24.1"
+nbformat = "^5.10.4"
+pycountry = "^24.6.1"
+missingno = "^0.5.2"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
